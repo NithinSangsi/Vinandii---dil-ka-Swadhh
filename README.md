@@ -25,7 +25,7 @@ This very Simple Task helped me gain the Knowlegde of the Html,Css and the JavaS
   🎬 Animated GIF when music is playing
 
 
-# 🛠️ How It Works (Code Focus)
+# How It Works (Code Focus)
 
   vinandii.js initializes an Audio object and manages song playback.
   
@@ -37,7 +37,7 @@ This very Simple Task helped me gain the Knowlegde of the Html,Css and the JavaS
   
   Clicking a song updates the current index, loads the new file, and starts playback.
 
-# 🚀 Getting Started
+# Getting Started
  
 1. Clone the Repository
 
