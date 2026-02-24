@@ -9,11 +9,13 @@
 ---
 📂 Project Structure
 
-    ├── vinandii.html      # Main HTML structure
-    ├── vinandii.css       # Styling (UI design, layout, responsiveness)
-    ├── vinandii.js        # Core functionality (play, pause, next, previous, progress bar)
-    ├── songs/             # Folder containing all .mp3 audio files
-    └── images/            # Album covers, background images, and icons
+    ├── index.html      # Main HTML structure
+    ├── style.css       # Styling (UI design, layout, responsiveness)
+    ├── script.js       # Core functionality (play, pause, next, previous, progress bar)
+    ├── songs/          # Folder containing all .mp3 audio files
+    ├── MP4/            # short videos     
+    └── images/         # Album covers, background images, and icons
+    
 
 # Vinandii Features
 
@@ -21,16 +23,18 @@
 
   ⏮️⏭️ Previous / Next buttons to switch between tracks
 
+  🔀🔂 Shuffle / replay (1,2, and infinte times)
+
   📀 Playlist view with song names, durations, and album art
 
-  📊 Progress bar to seek through a song
+  📊 Progress bar to seek through a song and sounf adjustement progress bar
 
   🎬 Animated GIF when music is playing
 
 
 # How It Works (Code Focus)
 
-  vinandii.js initializes an Audio object and manages song playback.
+  script.js initializes an Audio object and manages song playback.
   
   Event listeners handle play, pause, progress updates, and seeking.
   
@@ -54,7 +58,7 @@
 
 3. Open in Browser
 
-   Just open vinandii.html in your browser.
+   Just open index.html in your browser (Live Server).
 
 # 📸 Demo Screenshot
 
@@ -63,11 +67,11 @@
  
 # NOTE :
 
-  Update the songs[]  array in vinandii.js to match your own songs.
+  Update the songs[]  array in script.js to match your own songs.
 
   Ensure that the songs/ and images/ paths are correct.
 
   Works best on modern browsers (Chrome, Edge).
 
 # Future Enhancements  
-  (like shuffle, repeat, volume control, playlist from API) so it looks more professional on GitHub?
+  (like shuffle ✅, repeat ✅, volume control ✅,playlist from API) so it looks more professional on GitHub?
