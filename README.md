@@ -1,6 +1,11 @@
-# Presenting U
 
-# 🎶 Vinandii - dill ka Swadhhh
+<p align="center">
+  <img src="https://github.com/NithinSangsi/JillaPulse/blob/0f82a2460047af3dee98d5b106b3b9f45cb7bd28/frontend/src/assets/JP.png" alt="JillaPulse Logo" width="150" height="150"/>
+</p>
+
+<h2 align="center">
+    🎶 Vinandii - dill ka Swadhhh
+</h2>
 
 This very Simple Task helped me gain the Knowlegde of the Html,Css and the JavaScript.
 
