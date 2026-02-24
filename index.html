@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinandhii - dill ka Swadhhh</title>
-    <link rel="stylesheet" href="vinandii.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-papb/1L5T3JIVa5Yl1IbhRVGvHh/XMF7+aiVGRQbHcz/8Bh5xJqFj8+3PcPcb8kJKWZV2vI0FmC8Z8tFqjvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <nav>
@@ -51,17 +53,31 @@
         <div class="songBanner"></div>
     </div>
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="progressRow">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        </div>
+        <div class="timeRow">
+            <span id="timeRemaining">00:00</span>
+        </div>
         <div class="icons">
+            <i class="fas fa-3x fa-random" id="shuffle" title="Shuffle"></i>
             <i class="fas fa-3x fa-step-backward" id="previous"></i>
             <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
             <i class="fas fa-3x fa-step-forward" id="next"></i>
+            <i class="fas fa-3x fa-redo" id="repeat" title="Repeat"></i>
+            <span id="repeatCount" class="repeatCount"></span>
         </div>
         <div class="songInfo">
             <img src="./images/200.webp" width="42px" alt="10" id="gif"><span id="masterSongName">Nanna Nuv Naa Pranam - Sonu Nigam (2023)</span>
         </div>
+        <!-- Add this directly after the songInfo div, inside the .bottom -->
+        <div class="volumeControl">
+          <button id="muteBtn" class="muteBtn" title="Mute/Unmute">
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+        </div>
     </div>
-      <script src="vinandii.js"></script>
-      <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
 </body>
 </html>
