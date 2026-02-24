@@ -2,13 +2,11 @@
 <p align="center">
   <img src="https://github.com/NithinSangsi/Vinandii---dil-ka-Swadhh/blob/0cd34372f1d8281eeb5a5f5e752aae054eca4a69/images/bg.webp" alt="Vinandiii Logo" width="150" height="150"/>
 </p>
-
 <h2 align="center">
     🎶 Vinandii - dill ka Swadhhh
 </h2>
 
-This very Simple Task helped me gain the Knowlegde of the Html,Css and the JavaScript.
-
+---
 📂 Project Structure
 
     ├── vinandii.html      # Main HTML structure
