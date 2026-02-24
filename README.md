@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/NithinSangsi/JillaPulse/blob/0f82a2460047af3dee98d5b106b3b9f45cb7bd28/frontend/src/assets/JP.png" alt="JillaPulse Logo" width="150" height="150"/>
+  <img src="https://github.com/NithinSangsi/Vinandii---dil-ka-Swadhh/blob/0cd34372f1d8281eeb5a5f5e752aae054eca4a69/images/bg.webp" alt="Vinandiii Logo" width="150" height="150"/>
 </p>
 
 <h2 align="center">
