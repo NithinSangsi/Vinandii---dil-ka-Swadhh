@@ -58,7 +58,7 @@
 
 # 📸 Demo Screenshot
 
-  ![image alt](https://github.com/NithinSangsi/Vinandii---dil-ka-Swadhh/blob/719e16f2180f8a23f49f4d7b88d40faf734fcb38/Screenshot%202025-09-02%20163808.png)
+  ![image alt](https://github.com/NithinSangsi/Vinandii---dil-ka-Swadhh/blob/16db21b4057980d2cb6f6d2d5c437b66483d630b/Vinandii.png)
 
  
 # NOTE :
